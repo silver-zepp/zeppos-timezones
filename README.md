@@ -59,7 +59,7 @@ console.log(location, is_dst); // output: "America/New_York" false
 --- 
 
 ### Simple apps that can be implemented using this library
-<img src="./assets/timezones-apps.png" width="70%"><br>
+<img src="./assets/timezones-apps.png" width="80%"><br>
 
 --- 
 
