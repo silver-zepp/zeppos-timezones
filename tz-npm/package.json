@@ -1,0 +1,31 @@
+{
+    "name": "@silver-zepp/timezones",
+    "version": "1.0.0",
+    "description": "Timezones - An extended version of QuickJS's built-in Date() object that properly handles Daylight Saving Time (DST) changes.",
+    "main": "dist/tz-import.js",
+    "types": "ts/tz-import.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/tz-import.js",
+        "types": "./ts/tz-import.d.ts"
+      }
+    },
+    "files": [
+      "dist/*.js",
+      "ts/*.d.ts",
+      "!dist/*.src.js"
+    ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "zeppos": true,
+    "author": "Silver, Zepp Health",
+    "license": "MIT",
+    "keywords": [
+      "zeppos",
+      "Zepp OS",
+      "amazfit",
+      "timezones",
+      "dst"
+    ]
+  }
